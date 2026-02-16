@@ -10,7 +10,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := linux
 LOCAL_DESCRIPTION := Linux kernel
 LOCAL_CATEGORY_PATH := system
-LINUX_DEFAULT_CONFIG_FILE := \
+LINUX_CONFIG_FILE := \
 	$(LOCAL_PATH)/arch/arm64/configs/bcm2711_defconfig
 
 include $(BUILD_LINUX)
